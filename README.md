@@ -5,7 +5,7 @@ Movie Ratings ETL
 
 Ben Stork
 
-Chrisharon Beale
+Crisharon Beale
 
 Julie Pyle
 
