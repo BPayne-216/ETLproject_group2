@@ -17,6 +17,19 @@ body {
     margin-top: 25px;
 }
 
+.rotten_tomato_image {
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+    size: 25px;
+}
+
+.imdb_image {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
 .header {
     font-size: 45px;
     font-weight: bold;
