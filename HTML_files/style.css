@@ -1,0 +1,52 @@
+.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lavender;
+}
+.nav-link {
+    font-size: 20px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.image {
+    margin-top: 25px;
+}
+
+.rotten_tomato_image {
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+    size: 25px;
+}
+
+.imdb_image {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.header {
+    font-size: 45px;
+    font-weight: bold;
+    font-style: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+    margin-top: 20px;
+}
+
+.sub_header {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+
+}
+.paragraph {
+    font-size: 25px;
+    font-style: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+}
