@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" charset="UTF-8"/> 
+  <title>Home page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">Movie Ratings Analysis</a>
+      
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="project_proposal.html">Project Proposal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="er_diagram.html">ER Diagram</a>
+          </li>
+      
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="movie_ratings.html" id="navbardrop" data-toggle="dropdown">
+              Movie Ratings
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="imdb.html">IMDB Ratings</a>
+              <a class="dropdown-item" href="rotten_tomatos.html">Rotten Tomatoes</a>
+              <a class="dropdown-item" href="user_ratings.html">User Ratings</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+    
+   <div class=container>
+    <div class=row>
+      <div class="col-md-12">
+      <h1 class=header>
+        Project Proposal 
+      </h1>
+      </div>
+    </div>
+
+    <div class=row>
+      <div class="col-md-12">
+        <h2 class=sub_header> 
+          by Ben Stork, Crisharon Beale, Robert Payne, Julie Pyle
+        </h2>
+      </div>
+    </div>
+       
+    <div class=row>
+      <div class="col-md-8">
+      <p class=paragraph>
+        Create a movie information data frame in SQL that allows users to 
+        quickly and conveniently search for the following:
+      </p>
+      <p class=paragraph>
+        1. Compare movie ratings by release year and find the top 5 rated movies 
+        based on the combined data sets (ratings on Rotten Tomatoes, IMDb and 
+        user reviews).
+        <br>
+        2. Compare movie ratings by genre looking at the top 5 rated movies based 
+        on the combined data sets (ratings on Rotten Tomatoes, IMDb and user 
+        reviews.
+        <br>
+        3. Compare top 5 movies by target age group of movies. 
+        <br>
+        4. Inform the consumer where to stream a movie.   
+       </p>
+      </div>
+
+    </div>
+      
+  </div>
+
+</body>

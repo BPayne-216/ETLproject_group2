@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" charset="UTF-8"/> 
+  <title>Home page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#" class="color">Movie Ratings Analysis</a>
+      
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="project_proposal.html">Project Proposal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="er_diagram.html">ER Diagram</a>
+          </li>
+      
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="movie_ratings.html" id="navbardrop" data-toggle="dropdown">
+              Movie Ratings
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="imdb.html">IMDB Ratings</a>
+              <a class="dropdown-item" href="rotten_tomatos.html">Rotten Tomatoes</a>
+              <a class="dropdown-item" href="user_ratings.html">User Ratings</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    
+    <div class=container>
+        <div class=row>
+        <div class="col-md-12">
+            <img class="image" src="movie_pic.jpg" alt="Movie Poster">
+        </div>
+        </div>
+
+        <div class=row>
+          <div class="col-md-12">
+          <h1 class=header>
+            Movie Analysis by Ratings
+          </h1>
+          </div>
+        </div>
+    
+        <div class=row>
+          <div class="col-md-12">
+            <h2 class=sub_header> 
+              by Ben Stork, Crisharon Beale, Robert Payne, Julie Pyle
+            </h2>
+          </div>
+        </div>
+           
+        <div class=row>
+          <div class="col-md-8">
+          <p class=paragraph>
+            Our team created a movie information data frame in SQL (postgres) that allows users to 
+            quickly and conveniently search for the top movies by ratings.
+            The following rating systems were utilized:
+            <br>
+            1. Rotten Tomatoes
+            <br>
+            2. IMDB 
+            <br>
+            3. User ratings
+            <br>
+          </p>
+          <p class=paragraph>
+            We analyzed the Top 5 movies for each rating system by:
+            <br>
+            1. Genre
+            <br>
+            2. Release Year
+            <br>
+            3. Age
+            <br>
+          </p>
+          <p class=paragraph>
+            Lastly, we analyzed what streaming platform a movie can be found.
+          </p>
+          </div>
+
+        </div>
+          
+      </div>
+
+
+</body>

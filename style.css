@@ -1,0 +1,39 @@
+.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lavender;
+}
+.nav-link {
+    font-size: 25px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.image {
+    margin-top: 25px;
+}
+
+.header {
+    font-size: 45px;
+    font-weight: bold;
+    font-style: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+    margin-top: 20px;
+}
+
+.sub_header {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+
+}
+.paragraph {
+    font-size: 25px;
+    font-style: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+}
