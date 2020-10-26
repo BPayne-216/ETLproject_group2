@@ -251,3 +251,34 @@ CREATE TABLE moviesOnStreamingplatform (
 	Netflix BIGINT NOT NULL,
 	Hulu BIGINT NOT NULL,
 	Prime_Video BIGINT NOT NULL);
+
+CREATE TABLE genres (
+	index SERIAL NOT NULL (primary_key=True),
+	movie_ID BIGINT,
+	action',
+	adventure TEXT',
+	animation TEXT,
+	biography TEXT,'
+	comedy TEXT,
+	crime TEXT,
+	documentary TEXT,
+	dramaTEXT,
+	family TEXT,
+	fantasy TEXT,
+	film-noir TEXT,'
+	game-show TEXT,
+	history TEXT,
+	horror TEXT,
+	music TEXT,
+	musical TEXT,
+	mystery TEXT,
+	news TEXT,
+	reality-tv TEXT,
+	romance TEXT,
+	sci-fi TEXT,
+	short TEXT,
+	sport TEXT,'
+	talk-showTEXT,
+	thriller TEXT,
+	war TEXT,
+	western TEXT);
