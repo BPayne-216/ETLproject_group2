@@ -1,6 +1,6 @@
 # ETLproject_group2
 ETL project for group 2
-![image of HW](https://github.com/BPayne-216/web-scraping-challenge/blob/master/Missions_to_Mars/templates/cover_mars.png)
+![image of HW](https://github.com/BPayne-216/ETLproject_group2/tree/master/docs/movie_pic.jpg)
 TEAM:
 - Chrisharon Beale
 - Julie Pyle
