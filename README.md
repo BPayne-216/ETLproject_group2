@@ -5,7 +5,7 @@
 
 
 TEAM:
-- Chrisharon Beale
+- Crisharon Beale
 - Julie Pyle
 - Ben Stork
 - Robert Payne
