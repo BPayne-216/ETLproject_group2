@@ -1,5 +1,5 @@
 
-# ETL project for group 2
+# ETL project for group 2: Movie Ratings Analysis
 
 ![image of HW](https://github.com/BPayne-216/ETLproject_group2/blob/master/docs/movie_pic.jpg)
 
