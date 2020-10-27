@@ -31,9 +31,11 @@
   
         </ul>
       </nav>
+ 
+      <img class=film_reel_image src="film_reel_2.jpg" alt="Film Reel Image">
+     
 
-    
-   <div class=container>
+    <div class=container>
     <div class=row>
       <div class="col-md-12">
       <h1 class=header>
@@ -51,36 +53,78 @@
     </div>
        
     <div class=row>
-      <div class="col-md-8">
+      <div class="col-md-12">
       <p class=paragraph>
         Create a movie information data frame in SQL that allows users to 
-        quickly and conveniently search for the top movies based on ratings.
+        quickly and conveniently search for the top movies based on 
+        IMDb and Rotten Tomatoes ratings.
       </p>
       <p class=paragraph>
-        Compare movie ratings on Rotten Tomatoes and IMDb to find
-        the top 10 movies based on 8 major genres: 
+        We will use the following movie data sets from Kaggle:
+        <a href="https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney">
+          movies on streaming networks dataset</a> 
+          and the
+          <a href=https://www.kaggle.com/rounakbanik/the-movies-dataset>
+          movie metadata set. </a> 
+      </p>
+      <p class=paragraph>
+        Users will be able to utilize the dataframe in SQL to complete 
+        any of the following analyses (and more):
         <br>
-            1. Action
+            - Top movie ratings from Rotten Tomatoes and IMDb by genre
             <br>
-            2. Comedy
+            - Top movie ratings from Rotten Tomatoes and IMDb by age category
             <br>
-            3. Documentary
+            - Top movie ratings from Rotten Tomatoes and IMDb by year
             <br>
-            4. Drama
+            - What streaming service to find a movie
             <br>
-            5. Family
-            <br>
-            6. Horror
-            <br>
-            7. Sci-fi
-            <br>
-            8. Western
-            <br>
-        <br>
-        Lastly, inform the consumer where to stream a movie.   
        </p>
       </div>
+    </div>
 
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped" style="width:100%">
+          <h3 class=project_breakdown_header>
+            Project Breakdown
+          </h3>
+          <tr>
+            <th>Name</th>
+            <th>Project Tasks</th> 
+          </tr>
+          <tr>
+            <td>Ben Stork</td>
+            <td>-Imported CSV files and combined data sets
+              <br>
+              -Combined code from all group members upon completion
+              <br>
+              -Cleaned data to combine the 2 main datasets based on movie “Title” and “Year”</td>
+          </tr>
+          <tr>
+            <td>Crisharon Beale</td>
+            <td>-Created schemas
+              <br>
+              -Developed code for the connection between python and postgres
+              <br>
+              -Created tables in python & postgres 
+              <br>
+              -Created general queries for the questions others may use for analyses</td>
+          </tr>
+          <tr>
+            <td>Robert Payne</td>
+            <td>-Managed the github and all contributions
+              <br>
+              -Cleaned data to prepare for postgres import, focusing on the movie genre classification</td>
+          </tr>
+            <td>Julie Pyle</td>
+            <td>-Created all HTML code for the final presentation and webpages
+              <br>
+              -Created ER diagram</td>
+        </table>
+      </div>
+
+      </div>
     </div>
       
   </div>
