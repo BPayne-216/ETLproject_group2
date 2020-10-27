@@ -21,6 +21,7 @@ Purpose: Create a movie information data frame in SQL that will allow users to q
  
  Initial Files/Resources:
  https://www.kaggle.com/rounakbanik/the-movies-dataset
+ 
  https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney
 
 
