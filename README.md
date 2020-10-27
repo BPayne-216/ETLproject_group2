@@ -1,5 +1,5 @@
 
-# Heading 1 #ETL project for group 2
+# Heading 1 ETL project for group 2
 
 ![image of HW](https://github.com/BPayne-216/ETLproject_group2/blob/master/docs/movie_pic.jpg)
 
