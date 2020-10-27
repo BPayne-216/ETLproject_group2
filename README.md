@@ -28,6 +28,9 @@ Purpose: Create a movie information data frame in SQL that will allow users to q
  ERD:
  
  ![image of ERD](https://github.com/BPayne-216/ETLproject_group2/blob/master/docs/ER_diagram2.png)
+ 
+ Applications:
+ Postgres(SQL), python, html, css, bootstrap.
 
  
 
